@@ -1,0 +1,134 @@
+body{
+
+
+}
+
+.titulo{
+
+  background: ;
+  position: absolute;
+  color: green;
+  background: ;
+  margin: 0;
+  font-family: 'Bungee Shade';font-size: 40px;
+  margin-right: 1100px;
+  margin-left: 0;
+  padding-top: 8px;
+
+
+
+
+}
+
+div.logo{
+  margin-left: 240px;
+  padding-top: 30px;
+
+}
+
+header {
+
+  text-decoration: none;
+  background: #bfc9ca;
+  padding-bottom: 4%;
+
+
+}
+header  ul {
+  list-style: none;
+  display: inline-flex;
+    float: right;
+    margin-right: 6%;
+    font-size: 1.2em;
+}
+
+li a{
+  color: #000;
+  text-decoration:none;
+
+}
+
+
+header nav  li {
+    font-family: 'Berkshire Swash';font-size: 22px;
+    text-decoration: none;
+    margin-top: -50px;
+    margin-right: 20px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+header nav ul  li:hover{
+  font-family: 'Eater';font-size: 16px;
+  text-decoration: none;
+  background: #bfc9ca;
+  box-shadow: 0 0 10px #000, 0 0 40px #000, 0 0 80px #000;
+  transition-delay: 0s;
+  border: 1px solid;
+  border-radius: 20px;
+
+}
+
+
+
+form{
+
+  width: 500px;
+  margin: 0 auto;
+}
+
+fieldset{
+  background-color: red;
+  margin-top: -9%;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid  #333;
+  border-radius: 4px;
+  padding:0 0 0 40px ;
+}
+
+
+input,button{
+position: relative;
+float: left;
+width: 400px;
+height: 50px;
+padding: 0;
+}
+
+input{
+  color: black;
+  border: none;
+  z-index: 2;
+}
+
+button{
+  font-size: 1.4em;
+  width: 50px;
+  border: none;
+  background: #333;
+  transform: translate(-50px,0);
+  transition-duration: .3s;
+}
+ion-icon{
+  color:#666;
+  transform: translate(-395px,0);
+  transition-duration:all .1s ease-in-out;
+}
+
+
+
+
+input:focus{
+  outline: none;
+}
+
+input:focus +button{
+  transform: translate(0,0);
+  transition-duration: .3s;
+}
+
+input:focus +button ion-icon{
+  transform: translate(0,0);
+  transition-duration: .4s;
+}
